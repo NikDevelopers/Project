@@ -1,0 +1,32 @@
+.header {
+  padding: 15px 0; }
+  .header-contact, .header-contact-one, .header-contact-two {
+    display: flex;
+    justify-content: flex-end; }
+  .header-contact, .header-contact-one, .header-contact-two {
+    font-size: 22px;
+    align-items: center; }
+  .header-contact-button {
+    font-size: 14px;
+    color: #ffffff;
+    border: none;
+    background-color: #ff9d00;
+    padding: 13px 22px;
+    border-radius: 5px;
+    font-family: 'Roboto-Regular'; }
+    .header-contact-button:hover {
+      background-color: #ffb133;
+      cursor: pointer; }
+  .header-icon {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-right: 7px; }
+  .header-logo {
+    width: 191px; }
+  .header-contact-two {
+    padding-right: 27px;
+    padding-left: 13px; }
+  .header-contact-one:first-child {
+    border-right: 1px solid #cfcfd0;
+    padding-right: 13px; }

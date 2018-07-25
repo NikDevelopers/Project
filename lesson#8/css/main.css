@@ -1,0 +1,36 @@
+/*
+Error: Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 1 space.
+        on line 8 of C:\Users\Admin2017\Desktop\Lessons\lesson#8\css\main.sass
+
+3: .footer 
+4:  margin-top: 60px
+5:  background-color: $color
+6:  padding: 59px 0
+7:  color: #666666
+8: 	&-policy-link
+9: 	 font:
+10: 	  size: 12px
+11: 	p 
+12: 	 margin-bottom: 14px
+13: 	a 
+
+Backtrace:
+C:\Users\Admin2017\Desktop\Lessons\lesson#8\css\main.sass:8
+D:/Games/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:494:in `block in tabulate'
+D:/Games/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `each'
+D:/Games/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `each_with_index'
+D:/Games/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `tabulate'
+D:/Games/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:417:in `_to_tree'
+D:/Games/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:290:in `render'
+D:/Games/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:400:in `run'
+D:/Games/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+D:/Games/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+D:/Games/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+D:/Games/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+D:/Games/bin/sass:22:in `load'
+D:/Games/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 1 space.\A         on line 8 of C:\Users\Admin2017\Desktop\Lessons\lesson#8\css\main.sass\A \A 3: .footer \A 4:  margin-top: 60px\A 5:  background-color: $color\A 6:  padding: 59px 0\A 7:  color: #666666\A 8: 	&-policy-link\A 9: 	 font:\A 10: 	  size: 12px\A 11: 	p \A 12: 	 margin-bottom: 14px\A 13: 	a "; }

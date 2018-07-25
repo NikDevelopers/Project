@@ -1,0 +1,72 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: #f6f6f6;
+	font-family: "arial"; 
+}
+img{
+	margin-top: 20px;
+	margin-right: 20px;
+	max-width: 100%;
+}
+
+.beats, .content{
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+
+}
+.window{
+
+	position: absolute;
+	padding: 2%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);  
+	width: 80%;
+	background-color: #ffffff;
+	border:1px solid #e6e6e6;
+}
+button{
+	cursor:pointer;
+	border:none;
+	background-color: #ec744a;
+	color:#ffffff;
+	padding: 4%;
+	margin-top: 50px;
+	width: 70%;
+	font-size: 19px;
+	font-weight: 400;
+
+}
+button:hover{
+	background-color: #0583c6;
+}
+.p{
+	margin-top: 30px;
+	font-size: 15px;
+	font-weight: 400;
+}
+h2{
+	margin-top:30px;
+}
+.price{
+	margin-top:55px;
+	font-size: 15px;
+	font-weight: 400;
+}
+.priced{
+	margin-top: 23px;
+	font-size: 30px;
+	font-weight: 700;
+}
+.content{
+	margin-left: 99px;
+	margin-top:40px;
+}
+.buttons{
+	text-align: center;
+}

@@ -1,0 +1,139 @@
+.fonts{
+	font-weight: 300;
+}
+body {
+	background-image: url(img/book.jpg);
+	margin:0;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+p{
+	width: 67%;
+	margin: 0 auto;
+	
+}
+.minas{
+	width: 60%;
+	margin: 0 auto;
+	display:block;
+	border-radius: 50px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.8)
+	
+}
+.aragorn{
+	width: 60%;
+	margin: 0 auto;
+	border-radius: 50px;
+	display:block;
+	box-shadow: 0 0 30px rgba(0,0,0,0.8)
+}
+.troops{
+	width: 60%;
+	margin: 0 auto;
+	border-radius: 50px;
+	display:block;
+	box-shadow: 0 0 30px rgba(0,0,0,0.8)
+}
+.city{
+	width: 60%;
+	margin: 0 auto;
+	border-radius: 50px;
+	display:block;
+	box-shadow: 0 0 30px rgba(0,0,0,0.8)
+}
+.hobbit{
+	width: 60%;
+	margin: 0 auto;
+	border-radius: 50px;
+	display:block;
+	box-shadow: 0 0 30px rgba(0,0,0,0.8)
+}
+.lord-of{
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 50px;
+	display:block;
+	box-shadow: 0 0 30px rgba(0,0,0,0.8)
+}
+
+h3{
+	text-align: center;
+}
+h2{
+	text-align: center;
+		font-family: 'Pacifico', cursive;
+}
+.blod{
+	font-weight: bold;
+}
+.fs{
+	font-style:italic;
+}
+.menu li:first-child a{
+	border-radius:5px 5px 0 0;
+}
+
+
+a{
+	text-decoration: none;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+.side{
+	width: 230px;
+	margin: 10px;
+	font-family: 'Gaegu', cursive;
+	top:30px;
+	margin: -5px;
+}
+.menu a{
+	background: #636363;
+	color: #fff;
+	padding: 10px; 
+	display: block;
+	border-bottom: 1px solid #F5F5F5;
+	transition: 1.2s all;
+}
+.menu a:hover{
+	background:#F5F5F5;
+	color:black;
+	padding: 10px 0 10px 20px;
+
+
+}
+.side{
+	position: fixed;
+}
+.menu-list{
+	position: relative;
+	list-style: none;
+}
+.menu-drop{
+	position: absolute;
+	width: 45%;
+	left: 100%;
+	opacity: 0;
+	top:-9999em;
+	transition: 1s opacity;
+	border-left: 5px solid transparent;
+	list-style: none;
+}
+.menu-list:hover .menu-drop{
+	opacity: 1;
+	top:0;
+}
+.strts{
+	color:#000000;
+}
+p{
+	font-family: 'Gaegu', cursive;
+}
+h3{
+	font-family: 'Pacifico', cursive;
+}
+
+
+

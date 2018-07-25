@@ -1,0 +1,52 @@
+body{
+	background-color: #f4f4f4;
+}
+.block-subtitle{
+	width: 561px;
+	font-family: 'Pacifico', cursive;
+	font-weight: 400;
+}
+.block-title{
+	font-family: Constantia;
+	font-size: 60px;
+	font-weight: bold;
+}
+.block{
+display:flex;
+justify-content: center;
+
+}
+.block-img{
+	width: 551px;
+height: 396px;
+display:flex;
+margin-top: 140px;
+margin-bottom: 140px;
+}
+.block-price{
+	font-family: 'Passion', cursive;
+	text-align: center;
+}
+.block-text{
+		text-align: center;
+	margin-top: 40px;
+}
+.block-subtitle{
+	width: 561px;
+	margin-bottom: 30px;
+}
+.block-price{
+	font-size: 30px;
+font-weight: 400;
+margin-bottom: 30px;
+}
+button{
+	border: none;
+	padding: 4%;
+		width: 70%;
+border: 1px solid #000000;
+background-color: #6699ff;
+color: #000000;
+font-size: 60px;
+
+}

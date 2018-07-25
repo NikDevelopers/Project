@@ -1,0 +1,26 @@
+body{
+	font-family: 'Tahoma', sans-serif;
+}
+h1{
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top:70px;
+}
+.container{
+	max-width: 1140px;
+}
+.container__text{
+	font-size: 16px;
+	font-weight: 700;
+	margin:21px;
+	height: 34px;
+}
+.container__img{
+	margin-top:82px;
+	height: 78px;
+}
+.row{
+	text-align: center;
+}

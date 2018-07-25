@@ -1,0 +1,78 @@
+body{
+	background-color: #f9f9f9;
+	font-family: 'Proxima Nova', sans-serif;
+}
+.header-title{
+	font-size: 36px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 125px;
+}
+.button{
+	width: 202px;
+	height: 57px;
+	border: 1px solid #23bac1;
+	background-color: transparent;
+	cursor:pointer;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #23bac1;
+
+}
+button{
+	border:none;
+}
+button:focus{
+	outline:none;
+}
+.header-text-one{
+	font-size: 16px;
+	font-weight: 300;
+	padding-top: 24px;
+}
+.header-price-one{
+	font-size: 18px;
+	font-weight: 700;
+	padding-top: 25px;
+	padding-bottom: 24px;
+}
+.header-content{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+		text-align: center;
+
+}
+.header-block-one{
+	
+	margin-right: 28px;
+
+
+}
+.header-block-two{
+	
+	margin-right: 27px;
+
+}
+.header-block-three{
+
+	margin-right: 26px;
+}
+
+.header-text{
+	text-align:center;
+font-size: 16px;
+	font-weight: 300;
+	padding-top: 24px;
+}
+.header-price{
+	text-align: center;
+	font-weight: 700;
+	padding-top: 25px;
+	padding-bottom: 24px;
+}
+button{
+display: inline-block;
+}
